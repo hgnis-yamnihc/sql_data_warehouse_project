@@ -43,9 +43,9 @@ create table bronze.crm_sales_details(
 	sls_ord_num nvarchar(50),
 	sls_prd_key nvarchar(50),
 	sls_cust_id int,
-	sls_order_dt date, 
-	sls_ship_dt date,
-	sls_due_dt date,
+	sls_order_dt nvarchar(50), 
+	sls_ship_dt nvarchar(50),
+	sls_due_dt nvarchar(50),
 	sls_sales int,
 	sls_quantity int,
 	sls_price int
